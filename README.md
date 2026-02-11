@@ -53,3 +53,20 @@ psql -d arvutiklassid -f permissions.sql
 # Loo varukoopia
 bash backup/backup.sh
 ```
+
+## Ekraanipildid
+
+### Broneeringute nimekiri
+![Broneeringud](screenshots/01_broneeringud.png)
+
+### Uue broneeringu vorm
+![Uus broneering](screenshots/02_uus_broneering.png)
+
+### Broneeringu muutmine
+![Muuda broneeringut](screenshots/03_muuda_broneeringut.png)
+
+### Arvutiklassid
+![Klassid](screenshots/04_klassid.png)
+
+### Statistika
+![Statistika](screenshots/05_statistika.png)
