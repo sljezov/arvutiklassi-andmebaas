@@ -18,30 +18,61 @@ TAK25 grupi andmebaasirakenduse projekt. Veebirakendus arvutiklasside broneerimi
 └── backup/                 # Varundamine ja taastamine
 ```
 
-## Kiirstart
+## Eeldused
+
+- [Bun](https://bun.sh/) on paigaldatud
+- PostgreSQL on käivitatud ja ligipääsetav
+
+## Andmebaasi seadistamine
+
+### Variant A: Lokaalne PostgreSQL
 
 ```bash
-# 1. Andmebaas
 createdb arvutiklassid
 psql -d arvutiklassid -f schema.sql
 psql -d arvutiklassid -f seed.sql
+```
 
-# 2. Rakendus
-cd app
-bun install
-bun run dev
+### Variant B: Docker
+
+```bash
+docker run --name arvutiklassid-db \
+  -e POSTGRES_DB=arvutiklassid \
+  -e POSTGRES_PASSWORD=postgres \
+  -p 5432:5432 \
+  -d postgres:17
+
+# Oota kuni konteiner käivitub, siis:
+psql -h localhost -U postgres -d arvutiklassid -f schema.sql
+psql -h localhost -U postgres -d arvutiklassid -f seed.sql
+```
+
+## Käivitamine
+
+```bash
+# Paigalda sõltuvused (juurkaust + app)
+bun install && cd app && bun install && cd ..
+
+# Käivita server
+cd app && bun run dev
 ```
 
 Server käivitub aadressil **http://localhost:3000**.
+
+Kui PostgreSQL jookseb teisel pordil või teise parooliga, kasuta keskkonnamuutujaid:
+
+```bash
+PGHOST=localhost PGPORT=5432 PGUSER=postgres PGPASSWORD=postgres bun run dev
+```
 
 ## Import / Eksport
 
 ```bash
 # Impordi andmed CSV, JSON ja XML failidest
-bun run import/import.ts
+bun run import
 
 # Ekspordi koondandmed
-bun run export/export.ts
+bun run export
 ```
 
 ## Õigused ja varundamine

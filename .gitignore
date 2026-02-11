@@ -1,9 +1,6 @@
 node_modules/
 bun.lock
 *.env
-backup/backup_*.sql
 export/bookings_summary.csv
 export/top5_classes.json
 screenshots/take.ts
-/package.json
-/node_modules

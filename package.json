@@ -1,0 +1,11 @@
+{
+  "name": "arvutiklasside-broneerimine",
+  "version": "1.0.0",
+  "scripts": {
+    "import": "bun run import/import.ts",
+    "export": "bun run export/export.ts"
+  },
+  "dependencies": {
+    "postgres": "^3.4.4"
+  }
+}

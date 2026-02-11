@@ -1,5 +1,12 @@
 # Loogiline disain — Arvutiklasside broneerimissüsteem
 
+## Kasutatud CASE-vahend
+
+Diagrammid on loodud **Mermaid** märgistuskeeles ja teisendatud PNG-failideks **Mermaid CLI** (`@mermaid-js/mermaid-cli`) abil. DDL (`schema.sql`) on genereeritud diagrammide põhjal.
+
+- ERD (Crow's Foot): `erd_crowsfoot.md` → `erd_crowsfoot.png`
+- UML klassidiagramm: `uml_class.md` → `uml_class.png`
+
 ## Tabelite ülevaade
 
 Andmebaas koosneb 4 tabelist, mis katavad arvutiklasside broneerimise põhivajadused.
