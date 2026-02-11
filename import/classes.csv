@@ -1,0 +1,9 @@
+name,building,capacity,has_projector,description
+A-201,A-korpus,30,true,Suur arvutiklass projektori ja kõlaritega
+A-202,A-korpus,20,true,Keskmine arvutiklass
+B-101,B-korpus,15,false,Väike arvutiklass laboritöödeks
+B-102,B-korpus,25,true,Keskmine arvutiklass videokonverentsi seadmetega
+C-301,C-korpus,35,true,Suur arvutiklass seminari jaoks
+C-302,C-korpus,10,false,Väike arvutiklass individuaalse tööga
+D-401,D-korpus,28,true,Uus arvutiklass multimeediaga
+D-402,D-korpus,18,false,Väike arvutiklass rühmatöödeks

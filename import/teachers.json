@@ -1,0 +1,10 @@
+[
+  { "name": "Mart Tamm", "email": "mart.tamm@kool.ee", "role": "teacher" },
+  { "name": "Liis Kask", "email": "liis.kask@kool.ee", "role": "teacher" },
+  { "name": "Jüri Sepp", "email": "juri.sepp@kool.ee", "role": "teacher" },
+  { "name": "Anne Mets", "email": "anne.mets@kool.ee", "role": "teacher" },
+  { "name": "Toomas Ilves", "email": "toomas.ilves@kool.ee", "role": "admin" },
+  { "name": "TAK25 grupp", "email": "tak25@kool.ee", "role": "student_group" },
+  { "name": "TAK24 grupp", "email": "tak24@kool.ee", "role": "student_group" },
+  { "name": "Piret Põld", "email": "piret.pold@kool.ee", "role": "teacher" }
+]

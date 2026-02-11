@@ -1,0 +1,6 @@
+node_modules/
+bun.lock
+*.env
+backup/backup_*.sql
+export/bookings_summary.csv
+export/top5_classes.json

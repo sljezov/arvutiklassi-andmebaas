@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookings>
+  <booking>
+    <classroom>A-201</classroom>
+    <teacher>mart.tamm@kool.ee</teacher>
+    <lesson_type>Loeng</lesson_type>
+    <date>2025-02-10</date>
+    <start_time>08:00</start_time>
+    <end_time>09:30</end_time>
+    <participants>28</participants>
+    <description>Programmeerimise loeng</description>
+  </booking>
+  <booking>
+    <classroom>A-202</classroom>
+    <teacher>liis.kask@kool.ee</teacher>
+    <lesson_type>Praktikum</lesson_type>
+    <date>2025-02-10</date>
+    <start_time>10:00</start_time>
+    <end_time>11:30</end_time>
+    <participants>18</participants>
+    <description>Andmebaaside praktikum</description>
+  </booking>
+  <booking>
+    <classroom>B-101</classroom>
+    <teacher>juri.sepp@kool.ee</teacher>
+    <lesson_type>Praktikum</lesson_type>
+    <date>2025-02-10</date>
+    <start_time>12:00</start_time>
+    <end_time>13:30</end_time>
+    <participants>14</participants>
+    <description>Võrgutehnoloogia labor</description>
+  </booking>
+  <booking>
+    <classroom>B-102</classroom>
+    <teacher>anne.mets@kool.ee</teacher>
+    <lesson_type>Seminar</lesson_type>
+    <date>2025-02-11</date>
+    <start_time>08:00</start_time>
+    <end_time>09:30</end_time>
+    <participants>22</participants>
+    <description>IT-juhtimise seminar</description>
+  </booking>
+  <booking>
+    <classroom>C-301</classroom>
+    <teacher>mart.tamm@kool.ee</teacher>
+    <lesson_type>Loeng</lesson_type>
+    <date>2025-02-11</date>
+    <start_time>10:00</start_time>
+    <end_time>11:30</end_time>
+    <participants>30</participants>
+    <description>Veebiarenduse loeng</description>
+  </booking>
+  <booking>
+    <classroom>A-201</classroom>
+    <teacher>liis.kask@kool.ee</teacher>
+    <lesson_type>Eksam</lesson_type>
+    <date>2025-02-12</date>
+    <start_time>08:00</start_time>
+    <end_time>10:00</end_time>
+    <participants>25</participants>
+    <description>Andmebaaside eksam</description>
+  </booking>
+  <booking>
+    <classroom>A-202</classroom>
+    <teacher>juri.sepp@kool.ee</teacher>
+    <lesson_type>Praktikum</lesson_type>
+    <date>2025-02-12</date>
+    <start_time>10:00</start_time>
+    <end_time>11:30</end_time>
+    <participants>15</participants>
+    <description>Linuxi praktikum</description>
+  </booking>
+  <booking>
+    <classroom>C-302</classroom>
+    <teacher>anne.mets@kool.ee</teacher>
+    <lesson_type>Konsultatsioon</lesson_type>
+    <date>2025-02-12</date>
+    <start_time>14:00</start_time>
+    <end_time>15:00</end_time>
+    <participants>5</participants>
+    <description>Individuaalne konsultatsioon</description>
+  </booking>
+  <booking>
+    <classroom>B-101</classroom>
+    <teacher>mart.tamm@kool.ee</teacher>
+    <lesson_type>Praktikum</lesson_type>
+    <date>2025-02-13</date>
+    <start_time>08:00</start_time>
+    <end_time>09:30</end_time>
+    <participants>12</participants>
+    <description>Pythoni praktikum</description>
+  </booking>
+  <booking>
+    <classroom>C-301</classroom>
+    <teacher>toomas.ilves@kool.ee</teacher>
+    <lesson_type>Seminar</lesson_type>
+    <date>2025-02-13</date>
+    <start_time>10:00</start_time>
+    <end_time>12:00</end_time>
+    <participants>32</participants>
+    <description>IT-turbe seminar</description>
+  </booking>
+  <booking>
+    <classroom>A-201</classroom>
+    <teacher>tak25@kool.ee</teacher>
+    <lesson_type>Praktikum</lesson_type>
+    <date>2025-02-14</date>
+    <start_time>08:00</start_time>
+    <end_time>09:30</end_time>
+    <participants>26</participants>
+    <description>TAK25 grupi praktikum</description>
+  </booking>
+  <booking>
+    <classroom>B-102</classroom>
+    <teacher>tak24@kool.ee</teacher>
+    <lesson_type>Loeng</lesson_type>
+    <date>2025-02-14</date>
+    <start_time>10:00</start_time>
+    <end_time>11:30</end_time>
+    <participants>20</participants>
+    <description>TAK24 grupi loeng</description>
+  </booking>
+  <booking>
+    <classroom>A-202</classroom>
+    <teacher>mart.tamm@kool.ee</teacher>
+    <lesson_type>Konsultatsioon</lesson_type>
+    <date>2025-02-14</date>
+    <start_time>14:00</start_time>
+    <end_time>15:00</end_time>
+    <participants>8</participants>
+    <description>Konsultatsioon enne eksamit</description>
+  </booking>
+  <booking>
+    <classroom>D-401</classroom>
+    <teacher>piret.pold@kool.ee</teacher>
+    <lesson_type>Loeng</lesson_type>
+    <date>2025-02-17</date>
+    <start_time>08:00</start_time>
+    <end_time>09:30</end_time>
+    <participants>25</participants>
+    <description>Multimeedia loeng</description>
+  </booking>
+  <booking>
+    <classroom>D-402</classroom>
+    <teacher>piret.pold@kool.ee</teacher>
+    <lesson_type>Praktikum</lesson_type>
+    <date>2025-02-17</date>
+    <start_time>10:00</start_time>
+    <end_time>11:30</end_time>
+    <participants>16</participants>
+    <description>Rühmatöö praktikum</description>
+  </booking>
+</bookings>

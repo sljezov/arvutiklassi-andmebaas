@@ -1,0 +1,11 @@
+{
+  "name": "arvutiklasside-broneerimine",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "hono": "^4.4.0",
+    "postgres": "^3.4.4"
+  }
+}
