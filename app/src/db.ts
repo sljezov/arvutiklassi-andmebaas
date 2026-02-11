@@ -5,7 +5,7 @@ const sql = postgres({
   port: Number(process.env.PGPORT) || 5432,
   database: process.env.PGDATABASE || "arvutiklassid",
   username: process.env.PGUSER || "postgres",
-  password: process.env.PGPASSWORD || "suslik3",
+  password: process.env.PGPASSWORD || "postgres",
 });
 
 export default sql;
